@@ -1,0 +1,141 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# PyTorch Model Files
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# Dataset
+Split_Dataset/
+Dataset/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Training Outputs
+*.png
+*.jpg
+*.jpeg
+!README_images/*.png
+!README_images/*.jpg
+*.csv
+*.log
+*.txt
+
+# Specific output files
+best_multitask_*.pt
+final_multitask_*.pt
+plot_*.png
+confusion_matrix_*.png
+sample_predictions.png
+training_convergence.png
+learning_rate_schedule.png
+model_comparison.png
+training_history.csv
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
