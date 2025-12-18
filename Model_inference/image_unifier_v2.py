@@ -26,7 +26,7 @@ from torchvision import transforms
 # ========================================
 
 IMG_SIZE = 224                          # Target size (224x224)
-BACKGROUND_COLOR = (0, 0, 0)           # Black background (B, G, R)
+BACKGROUND_COLOR = (255, 255, 255)           # Black background (B, G, R)
 AUG_QUALITY = 95                        # JPEG quality
 
 # ImageNet normalization parameters (CRITICAL FOR MODEL INPUT)

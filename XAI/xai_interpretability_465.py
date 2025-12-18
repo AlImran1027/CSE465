@@ -41,7 +41,7 @@ from bg_remove_465 import remove_background
 
 # Model and data paths
 MODEL_PATH = "/Users/alimran/Desktop/CSE465/best_DenseNet201.pt"  # Updated trained model
-IMAGE_PATH = "/Users/alimran/Desktop/CSE465/Model_inference/bacterial (25).jpg"  # Change to your test image
+IMAGE_PATH = "/Users/alimran/Desktop/CSE465/Inference_Images/Copy of virus (42).jpg"  # Change to your test image
 
 # Model architecture (for target layer selection)
 TARGET_LAYER_NAME = "features"  # DenseNet201: features.denseblock4 is the last conv block
